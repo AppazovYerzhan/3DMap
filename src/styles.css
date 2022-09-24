@@ -1,0 +1,54 @@
+html,
+body,
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: 'Open-Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    background-color: #030a19fa;
+}
+.btn-1{
+    font-size: 20px;
+    background-color: #3A68B8;
+    color: white;
+    padding: 3%, 8%;
+    margin: 8px 0;
+    border-radius: 15px;
+    border-color: #3A68B8;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+.btn-1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+label{
+    padding: 16px 48px;
+    border: 3px solid #3A68B8;
+    border-radius: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    /* transition-duration: 0.4s; */
+    
+}
+label:hover{
+    transform: scale(1.04);
+}
+
+label.active{
+    background-color: #3A68B8;
+    color: #162643;
+}
+label span{
+    font-weight: normal;
+}
+
